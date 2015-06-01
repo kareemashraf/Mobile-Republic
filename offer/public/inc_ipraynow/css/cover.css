@@ -1,0 +1,124 @@
+/*
+ * Globals
+ */
+@font-face {
+    font-family: 'helv';
+    src: url('../fonts/helv.eot');
+    src: url('../fonts/helv.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helv.woff') format('woff'),
+         url('../fonts/helv.ttf') format('truetype'),
+         url('../fonts/helv.svg#arno_prolight_display') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+  font-family: 'helv';
+  font-weight: 300;
+
+  -webkit-text-rendering: geometricPrecision;
+  -moz-text-rendering: geometricPrecision;
+  -ms-text-rendering: geometricPrecision;
+  o-text-rendering: geometricPrecision;
+  text-rendering: geometricPrecision;
+
+  webkit-font-smoothing: antialiased;
+  moz-font-smoothing: antialiased;
+  ms-font-smoothing: antialiased;
+  o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+html, body
+{
+  height: 100%;
+  width: 100%;
+  max-height: 100%;
+}
+#sis
+{
+  font-size: 26px;
+color: #999;
+padding: 30px;
+}
+.main-container
+{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+  overflow: hidden;
+}
+.navbar {
+min-height: 110px;
+background-color: #fff;
+}
+.form p
+{
+  font-size: 32px;
+  font-weight: normal;
+  margin-top: 100px;
+  padding-right: 30px;
+}
+.footer
+{
+  background-color: #fff;
+  z-index: 100;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding: 10px;
+  border-top: 1px solid #e7e7e7;
+}
+.footer p
+{
+  text-align: center;
+  color: #999;
+}
+#title-1
+{
+  margin-top: 100px; 
+  margin-bottom: 0;
+}
+#title-2
+{
+  margin-top: 0;
+}
+
+@media (max-width: 768px)  {
+  #sis {display: none;}
+  .footer {position: static;}
+  .main-container {overflow: visible;}
+  .form p
+  {
+    font-size: 25px;
+    font-weight: normal;
+    padding-right: 0;
+    margin: 20px auto;
+  }
+  form
+  {
+    margin-bottom: 40px;
+  }
+  button.btn.btn-primary {
+    display: block;
+    margin: 0 auto;
+  }
+  img.img-responsive {
+    margin-bottom: 30px;
+  }
+  #title-1
+  {
+    margin-top: 30px; 
+    margin-bottom: 0;
+    font-size: 24px;
+  }
+  #title-2
+  {
+    margin-top: 0;
+    font-size: 24px;
+  }
+  #sub
+  {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+}

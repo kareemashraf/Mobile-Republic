@@ -1,0 +1,39 @@
+html, body
+{
+  font-family: Cambria,Georgia,serif; 
+}
+h1, h2, h3, h4, h5, h6
+{
+  font-family: Cambria,Georgia,serif; 
+  font-weight: 500; 
+  color: #62aae8;
+}
+h2
+{
+  font-size: 36px;
+}
+h3
+{
+  font-size: 26px;
+}
+p
+{
+  font-weight: 400;
+  font-size: 20px;
+}
+.main-content img
+{
+  display: block;
+  margin: 20px auto;
+  width: 400px;
+}
+.navbar
+{
+  border-radius: 0 !important;
+  border: none;
+  border-bottom: 1px solid #e7e7e7;
+}
+.navbar-brand img
+{
+  height: 30px;
+}
